@@ -12,11 +12,12 @@ def object_list(template,query):
 	return render_template(template,persons=query)
 
 
-
+#Add home directory for cele 
 @cele_blueprint.route('/')
 def cele_home():
 	return render_template('cele_list.html')
 
+#Add directory for specified person type 
 @cele_blueprint.route('/<person_type>')
 def cele_list(person_type):
 
