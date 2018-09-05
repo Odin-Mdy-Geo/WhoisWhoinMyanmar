@@ -12,7 +12,7 @@ def object_list(template,query):
 	return render_template(template,persons=query)
 
 
-
+#Add route for bns home directory 
 @bns_blueprint.route('/')
 def bns_home():
 
@@ -21,7 +21,7 @@ def bns_home():
 		).order_by(Person.created_timestamp.asc())
 	return object_list('bns_home.html',persons)
 
-
+#Add route for bns detail directory
 @bns_blueprint.route('/detail/')
 def detail():
 
