@@ -10,6 +10,7 @@ def object_list(template,query):
 		query = query.filter(Person.name.contains(search))
 	return render_template(template,persons=query)
 
+# route for cdt 
 @cdt_blueprint.route('/')
 def cdt_home():
 

@@ -12,6 +12,7 @@ def object_list(template,query):
 	return render_template(template,persons=query)
 
 
+
 @bns_blueprint.route('/')
 def bns_home():
 
