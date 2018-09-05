@@ -7,15 +7,15 @@ class Blueprint_Test(unittest.TestCase):
 
 	def setUp(self):
 		self.app = app.test_client()
-
+	#Test for home directory 
 	def test_homepage(self):
 		response = self.app.get("/")
 		self.assertEqual(response.status_code,200)
-
+	#Test directory for about
 	def test_about(self):	
 		response = self.app.get("/about")
 		self.assertEqual(response.status_code,200)
-
+	#Test directory for contact 
 	def test_contact(self):
 		response = self.app.get("/contact")
 		self.assertEqual(response.status_code,200)
