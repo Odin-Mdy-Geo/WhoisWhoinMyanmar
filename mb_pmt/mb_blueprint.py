@@ -10,7 +10,7 @@ def object_list(template,query):
 		query = query.filter(Person.name.contains(search))
 	return render_template(template,persons=query)
 
-
+#Add directory for home of mb_pmt 
 @mb_blueprint.route('/')
 def mb_home():
 	persons = Person.query.filter(
@@ -18,7 +18,7 @@ def mb_home():
 		).order_by(Person.created_timestamp.asc())
 	return render_template('mb_home.html',persons=persons)
 
-
+#Add detail directory for mb_pmt 
 @mb_blueprint.route('/detail/')
 def detail():
 	return render_template('mb_detail.html')
