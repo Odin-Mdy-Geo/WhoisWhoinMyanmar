@@ -1,5 +1,15 @@
 # Odin_Mdy_Geo
 
+Director 
+---------------------
+U Ravi Chhabra 
+
+
+Supervisor 
+---------------------
+Daw Lai Lai Yee 
+
+
 Team members 
 ----------------------
 Maung Thura Aung (Team Lead)
