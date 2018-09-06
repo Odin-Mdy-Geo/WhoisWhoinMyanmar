@@ -1,4 +1,4 @@
-# Odin_Mdy_Geo
+# Who is Who in Myanmar 
 
 Director 
 ---------------------
@@ -8,6 +8,11 @@ U Ravi Chhabra
 Supervisor 
 ---------------------
 Daw Lai Lai Yee 
+
+
+Team Name 
+--------------------
+Mdy-Odin-Geo 
 
 
 Team members 
