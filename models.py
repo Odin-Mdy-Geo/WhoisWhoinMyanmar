@@ -3,15 +3,7 @@ import datetime
 from config import Configuration 
 import re
 
-# class Test(db.Model):
-#     id = db.Column(db.Integer,primary_key=True)
-#     name = db.Column(db.String(80))
 
-#     def __init__(self,*args,**kwargs):
-#         super(Test,self).__init__(*args,**kwargs)
-
-# def slugify(name):
-#     return re.sub('[^\w]+','-',name).lower()
 
 
 class Person(db.Model):
