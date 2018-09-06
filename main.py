@@ -3,8 +3,7 @@ import views
 import models 
 import admin
 
-# from cfp.cfp_blueprint import cfp
-# app.register_blueprint(cfp,url_prefix='/cfp/')
+
 
 from bns_leader.bns_blueprint import bns_blueprint
 app.register_blueprint(bns_blueprint,url_prefix='/bns/')
